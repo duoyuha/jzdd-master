@@ -1,0 +1,165 @@
+spring:
+  #服务名 调用用
+  application:
+    name: jzdd-backend
+  #hibernate相关
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy:  org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    # 是否显示sql
+    show-sql: false
+    format_sql: true
+    use_sql_comments: true
+    # 打开hibernate统计信息
+    properties:
+      hibernate:
+        generate_statistics: false
+        cache:
+          # 打开二级缓存
+          use_second_level_cache=: rue
+          # 打开查询缓存
+          use_query_cache: true
+          # 指定缓存provider
+          region:
+            factory_class: org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory
+      # 配置shared-cache-mode
+      javax:
+        persistence:
+          sharedCache:
+            mode: ENABLE_SELECTIVE
+  #http请求状态
+  http:
+    multipart:
+      maxFileSize: 100MB
+      maxRequestSize: 100MB
+#  #国际化消息
+#  使用自定义MessageSourceConfig增强、所以这里注释掉、配置也在那里面
+#  messages:
+#    fallbackToSystemLocale: false
+#    basename: i18n/messages
+#    encoding: UTF-8
+
+#服务端口号
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 9001
+
+#高德地图
+AmapConfig:
+  web_app_key: xxxxxxx
+
+# 短信
+AliSMSConfig:
+  AccessKeyId: xxxx
+  AccessKeySecret: xxxx
+  SMSSignName: xxx
+  RepairReceiveTemplateCode: xxx
+  RepairEvaluateTemplateCode: xxx
+
+#小米推送打开指定页面acitivity的完整包路径
+mipush:
+  activity: com.wxzd.bike.views.activities.MainActivity
+
+# 定时任务
+task:
+  schedule:
+    # 巡检定时任务
+    evaluation: 0 0 0 1/1 * ?
+    # 抢修即将超期提醒
+    repairRemind: 0 0/1 * * * ?
+    #党政
+    party: 0 0 0 1 1/1 ?
+
+#excel相关
+cn.zdwl.excel.master.localeSettingRowIndex: 1
+cn.zdwl.excel.master.localeSettingColumnIndex: 1
+management.contextPath: /actuator
+
+
+cn.bike.excel.master.product:
+  excelFilePath: templates/excel/master/product/product_001.xlsx
+  dataSheetName: product_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.settle:
+  excelFilePath: templates/excel/master/settle/settle_001.xlsx
+  dataSheetName: settle_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.month:
+  excelFilePath: templates/excel/master/month/month_001.xlsx
+  dataSheetName: month_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.common:
+  excelFilePath: templates/excel/master/common/common_001.xlsx
+  dataSheetName: common_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.vin:
+  excelFilePath: templates/excel/master/vin/vin_001.xlsx
+  dataSheetName: vin_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.orderreport:
+  excelFilePath: templates/excel/master/orderreport/orderreport_001.xlsx
+  dataSheetName: orderreport_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.settlereport:
+  excelFilePath: templates/excel/master/settlereport/settlereport_001.xlsx
+  dataSheetName: settlereport_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.delivery:
+  excelFilePath: templates/excel/master/delivery/delivery_001.xlsx
+  dataSheetName: delivery_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.install:
+  excelFilePath: templates/excel/master/install/install_001.xlsx
+  dataSheetName: install_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.complainorder:
+  excelFilePath: templates/excel/master/complainorder/complainorder_001.xlsx
+  dataSheetName: complainorder_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+cn.backend.excel.master.adviceorder:
+  excelFilePath: templates/excel/master/adviceorder/adviceorder_001.xlsx
+  dataSheetName: adviceorder_V0001
+  templateRowIndex: 1
+  dataStartRowIndex: 2
+  resultColumnIndex: 1
+
+corpno:
+  oula: CORP1560154054723
+  wey: CORP1560154054724
+
+
+
+
+

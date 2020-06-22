@@ -1,0 +1,721 @@
+2020-六月-04 11:58:41.607 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 11:58:41.676 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 11:58:41.676 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 11:58:41.676 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 11:58:41.676 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 11:58:41.676 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 11:58:41.676 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 11:59:02.563 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 11:59:15.957 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 11:59:15.957 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 11:59:15.957 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 11:59:15.957 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 11:59:15.957 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 11:59:15.957 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 11:59:15.958 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 11:59:36.647 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 11:59:49.976 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 11:59:49.976 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 11:59:49.976 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 11:59:49.976 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 11:59:49.976 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 11:59:49.976 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 11:59:49.976 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:00:10.657 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:00:23.999 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:00:23.999 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:00:23.999 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:00:23.999 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:00:23.999 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:00:23.999 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:00:23.999 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:00:44.668 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:00:58.042 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:00:58.042 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:00:58.042 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:00:58.042 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:00:58.042 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:00:58.042 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:00:58.042 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:01:18.677 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:01:32.079 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:01:32.079 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:01:32.079 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:01:32.079 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:01:32.079 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:01:32.079 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:01:32.079 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:01:38.141 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:01:52.689 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:02:06.093 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:02:06.093 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:02:06.093 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:02:06.093 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:02:06.093 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:02:06.093 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:02:06.093 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:02:26.719 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:02:40.113 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:02:40.113 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:02:40.113 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:02:40.113 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:02:40.113 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:02:40.113 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:02:40.113 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:03:00.731 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:03:14.122 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:03:14.122 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:03:14.122 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:03:14.122 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:03:14.122 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:03:14.122 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:03:14.122 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:03:34.750 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:03:48.139 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:03:48.139 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:03:48.139 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:03:48.139 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:03:48.139 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:03:48.139 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:03:48.139 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:04:08.773 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:04:22.162 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:04:22.162 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:04:22.162 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:04:22.162 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:04:22.162 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:04:22.162 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:04:22.162 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:04:42.781 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:04:56.199 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:04:56.199 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:04:56.199 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:04:56.199 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:04:56.199 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:04:56.199 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:04:56.200 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:05:16.820 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:05:30.210 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:05:30.210 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:05:30.210 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:05:30.211 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:05:30.211 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:05:30.211 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:05:30.211 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:05:50.833 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:06:04.224 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:06:04.224 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:06:04.224 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:06:04.224 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:06:04.224 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:06:04.225 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:06:04.225 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:06:24.846 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:06:38.143 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:06:38.237 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:06:38.237 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:06:38.237 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:06:38.237 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:06:38.237 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:06:38.237 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:06:38.238 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:06:58.884 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:07:12.259 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:07:12.259 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:07:12.260 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:07:12.261 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:07:12.261 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:07:12.261 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:07:12.261 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:07:32.899 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:07:46.273 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:07:46.273 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:07:46.273 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:07:46.273 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:07:46.274 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:07:46.274 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:07:46.274 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:08:06.910 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:08:20.296 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:08:20.296 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:08:20.296 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:08:20.296 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:08:20.296 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:08:20.297 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:08:20.297 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:08:40.921 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:08:54.309 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:08:54.309 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:08:54.309 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:08:54.309 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:08:54.310 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:08:54.310 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:08:54.310 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:09:14.954 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:09:28.331 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:09:28.331 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:09:28.331 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:09:28.331 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:09:28.332 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:09:28.332 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:09:28.332 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:09:48.966 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:10:02.354 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:10:02.354 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:10:02.354 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:10:02.354 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:10:02.354 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:10:02.354 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:10:02.355 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:10:22.989 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:10:36.379 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:10:36.379 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:10:36.379 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:10:36.379 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:10:36.379 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:10:36.380 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:10:36.380 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:10:57.012 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:11:10.392 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:11:10.392 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:11:10.392 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:11:10.392 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:11:10.392 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:11:10.392 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:11:10.392 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:11:31.025 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:11:38.146 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:11:44.403 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:11:44.403 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:11:44.404 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:11:44.404 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:11:44.404 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:11:44.404 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:11:44.404 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:12:05.048 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:12:18.417 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:12:18.417 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:12:18.417 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:12:18.418 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:12:18.418 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:12:18.418 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:12:18.418 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:12:39.060 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:12:52.441 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:12:52.441 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:12:52.441 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:12:52.441 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:12:52.441 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:12:52.441 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:12:52.441 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:13:13.073 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:13:26.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:13:26.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:13:26.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:13:26.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:13:26.454 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:13:26.454 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:13:26.454 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:13:47.082 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:14:00.476 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:14:00.476 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:14:00.476 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:14:00.476 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:14:00.476 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:14:00.476 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:14:00.476 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:14:21.106 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:14:34.482 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:14:34.482 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:14:34.482 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:14:34.482 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:14:34.482 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:14:34.483 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:14:34.483 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:14:55.117 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:15:08.495 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:15:08.495 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:15:08.495 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:15:08.495 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:15:08.495 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:15:08.495 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:15:08.495 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:15:29.148 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:15:42.515 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:15:42.515 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:15:42.515 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:15:42.515 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:15:42.515 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:15:42.515 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:15:42.515 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:16:03.172 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:16:16.531 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:16:16.531 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:16:16.531 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:16:16.531 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:16:16.532 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:16:16.532 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:16:16.532 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:16:37.195 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:16:38.148 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:16:50.544 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:16:50.544 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:16:50.544 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:16:50.544 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:16:50.544 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:16:50.545 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:16:50.545 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:17:11.208 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:17:24.558 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:17:24.558 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:17:24.558 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:17:24.558 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:17:24.558 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:17:24.559 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:17:24.559 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:17:45.219 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:17:58.568 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:17:58.568 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:17:58.568 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:17:58.569 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:17:58.569 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:17:58.569 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:17:58.569 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:18:19.231 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:18:32.591 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:18:32.592 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:18:32.592 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:18:32.592 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:18:32.592 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:18:32.592 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:18:32.592 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:18:53.242 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:19:06.604 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:19:06.604 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:19:06.604 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:19:06.604 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:19:06.604 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:19:06.605 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:19:06.605 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:19:27.257 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:19:40.627 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:19:40.627 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:19:40.627 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:19:40.627 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:19:40.627 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:19:40.627 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:19:40.627 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:20:01.279 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:20:14.641 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:20:14.641 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:20:14.641 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:20:14.642 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:20:14.642 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:20:14.642 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:20:14.642 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:20:35.290 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:20:48.658 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:20:48.658 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:20:48.658 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:20:48.658 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:20:48.658 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:20:48.659 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:20:48.659 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:21:09.325 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:21:22.671 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:21:22.671 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:21:22.671 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:21:22.671 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:21:22.671 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:21:22.672 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:21:22.672 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:21:38.150 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:21:43.349 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:21:56.683 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:21:56.684 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:21:56.684 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:21:56.685 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:21:56.685 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:21:56.685 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:21:56.685 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:22:17.382 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:22:30.699 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:22:30.699 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:22:30.699 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:22:30.699 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:22:30.699 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:22:30.699 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:22:30.699 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:22:47.366 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:23:00.681 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:23:00.681 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:23:00.681 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:23:00.681 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:23:00.681 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:23:00.681 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:23:00.682 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:23:21.381 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:23:34.696 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:23:34.696 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:23:34.696 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:23:34.696 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:23:34.696 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:23:34.697 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:23:34.697 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:23:55.393 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:24:08.724 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:24:08.724 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:24:08.724 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:24:08.724 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:24:08.724 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:24:08.724 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:24:08.724 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:24:29.405 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:24:42.747 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:24:42.747 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:24:42.747 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:24:42.747 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:24:42.748 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:24:42.748 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:24:42.748 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:25:03.428 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:25:16.770 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:25:16.770 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:25:16.770 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:25:16.770 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:25:16.770 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:25:16.770 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:25:16.770 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:25:37.448 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:25:50.782 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:25:50.782 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:25:50.782 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:25:50.782 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:25:50.782 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:25:50.782 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:25:50.782 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:26:11.472 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:26:24.795 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:26:24.795 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:26:24.795 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:26:24.795 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:26:24.795 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:26:24.796 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:26:24.796 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:26:34.124 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:26:45.495 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:26:58.820 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:26:58.820 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:26:58.820 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:26:58.821 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:26:58.821 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:26:58.821 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:26:58.822 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:27:19.531 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:27:32.833 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:27:32.833 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:27:32.833 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:27:32.833 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:27:32.834 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:27:32.834 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:27:32.834 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:27:53.544 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:28:06.848 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:28:06.848 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:28:06.848 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:28:06.848 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:28:06.848 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:28:06.848 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:28:06.848 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:28:27.566 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:28:40.863 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:28:40.863 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:28:40.863 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:28:40.863 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:28:40.863 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:28:40.863 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:28:40.863 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:29:01.591 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:29:14.875 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:29:14.875 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:29:14.875 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:29:14.875 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:29:14.875 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:29:14.875 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:29:14.875 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:29:35.604 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:29:48.905 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:29:48.905 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:29:48.905 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:29:48.905 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:29:48.906 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:29:48.906 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:29:48.906 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:30:09.618 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:30:22.943 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:30:22.944 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:30:22.944 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:30:22.944 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:30:22.944 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:30:22.945 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:30:22.945 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:30:43.640 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:30:56.956 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:30:56.956 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:30:56.956 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:30:56.956 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:30:56.956 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:30:56.956 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:30:56.956 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:31:17.653 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:31:30.971 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:31:30.971 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:31:30.971 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:31:30.971 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:31:30.971 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:31:30.971 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:31:30.971 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:31:34.126 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:31:51.677 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:32:04.982 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:32:04.982 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:32:04.982 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:32:04.983 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:32:04.983 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:32:04.983 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:32:04.983 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:32:25.701 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:32:38.996 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:32:38.996 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:32:38.996 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:32:38.996 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:32:38.996 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:32:38.996 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:32:38.996 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:32:59.715 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:33:13.019 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:33:13.019 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:33:13.019 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:33:13.019 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:33:13.020 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:33:13.020 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:33:13.020 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:33:33.725 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:33:47.034 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:33:47.034 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:33:47.034 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:33:47.034 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:33:47.035 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:33:47.035 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:33:47.035 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:34:07.751 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:34:21.044 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:34:21.044 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:34:21.044 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:34:21.044 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:34:21.044 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:34:21.044 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:34:21.044 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:34:41.764 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:34:55.055 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:34:55.055 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:34:55.055 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:34:55.055 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:34:55.056 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:34:55.056 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:34:55.056 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:35:15.779 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:35:29.069 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:35:29.069 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:35:29.069 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:35:29.069 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:35:29.070 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:35:29.070 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:35:29.070 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:35:49.805 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:36:03.083 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:36:03.084 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:36:03.084 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:36:03.085 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:36:03.085 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:36:03.085 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:36:03.085 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:36:23.817 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:36:34.128 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:36:37.099 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:36:37.099 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:36:37.099 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:36:37.099 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:36:37.100 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:36:37.100 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:36:37.100 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:36:57.829 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:37:11.143 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:37:11.143 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:37:11.143 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:37:11.143 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:37:11.144 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:37:11.144 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:37:11.144 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:37:31.842 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:37:45.175 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:37:45.175 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:37:45.175 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:37:45.175 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:37:45.176 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:37:45.176 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:37:45.176 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:38:05.856 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:38:19.188 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:38:19.188 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:38:19.189 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:38:19.189 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:38:19.189 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:38:19.189 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:38:19.189 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:38:39.881 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:38:53.200 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:38:53.200 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:38:53.200 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:38:53.201 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:38:53.201 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:38:53.201 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:38:53.201 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:39:13.901 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:39:27.214 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:39:27.214 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:39:27.214 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:39:27.214 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:39:27.214 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:39:27.214 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:39:27.214 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:39:47.929 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:40:01.226 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:40:01.226 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:40:01.226 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:40:01.226 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:40:01.227 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:40:01.227 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:40:01.227 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:40:21.942 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:40:35.240 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:40:35.240 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:40:35.240 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:40:35.240 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:40:35.240 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:40:35.240 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:40:35.240 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:40:55.966 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:41:09.252 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:41:09.252 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:41:09.252 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:41:09.252 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:41:09.253 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:41:09.253 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:41:09.253 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:41:29.977 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:41:34.131 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:41:43.266 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:41:43.266 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:41:43.266 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:41:43.266 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:41:43.266 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:41:43.266 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:41:43.266 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:42:04.000 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:42:17.290 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:42:17.290 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:42:17.291 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:42:17.291 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:42:17.291 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:42:17.291 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:42:17.291 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:42:38.033 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:42:51.315 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:42:51.315 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:42:51.315 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:42:51.315 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:42:51.316 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:42:51.316 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:42:51.316 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:43:12.045 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:43:25.325 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:43:25.325 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:43:25.325 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:43:25.325 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:43:25.326 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:43:25.326 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:43:25.326 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:43:46.071 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:43:59.348 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:43:59.348 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:43:59.348 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:43:59.348 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:43:59.348 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:43:59.349 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:43:59.349 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:44:20.082 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:44:33.361 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:44:33.361 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:44:33.361 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:44:33.361 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:44:33.361 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:44:33.362 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:44:33.362 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:44:54.096 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:45:07.376 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:45:07.376 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:45:07.376 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:45:07.376 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:45:07.377 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:45:07.377 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:45:07.377 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:45:28.109 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:45:41.388 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:45:41.388 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:45:41.388 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:45:41.388 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:45:41.388 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:45:41.388 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:45:41.388 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:46:02.146 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:46:15.400 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:46:15.400 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:46:15.400 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:46:15.400 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:46:15.401 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:46:15.401 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:46:15.401 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:46:34.133 INFO   AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-六月-04 12:46:36.172 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:46:49.428 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:46:49.428 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:46:49.428 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:46:49.428 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:46:49.429 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:46:49.429 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:46:49.429 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:47:10.195 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:47:23.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:47:23.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:47:23.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:47:23.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:47:23.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:47:23.453 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:47:23.454 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:47:44.244 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:47:57.465 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:47:57.465 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:47:57.465 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:47:57.465 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:47:57.465 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:47:57.465 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:47:57.465 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-六月-04 12:48:18.269 INFO   DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_JZDD-BACKEND/DESKTOP-TNTH64G:jzdd-backend:9001: registering service...
+2020-六月-04 12:48:31.474 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-六月-04 12:48:31.474 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-六月-04 12:48:31.474 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-六月-04 12:48:31.474 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2020-六月-04 12:48:31.474 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-六月-04 12:48:31.474 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-六月-04 12:48:31.474 INFO   DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server

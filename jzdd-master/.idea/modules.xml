@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/jzdd.iml" filepath="$PROJECT_DIR$/.idea/jzdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jzdd-backend/jzdd-backend.iml" filepath="$PROJECT_DIR$/jzdd-backend/jzdd-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jzdd-center/jzdd-center.iml" filepath="$PROJECT_DIR$/jzdd-center/jzdd-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jzdd-gateway/jzdd-gateway.iml" filepath="$PROJECT_DIR$/jzdd-gateway/jzdd-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jzdd-mongo/jzdd-mongo.iml" filepath="$PROJECT_DIR$/jzdd-mongo/jzdd-mongo.iml" />
+    </modules>
+  </component>
+</project>

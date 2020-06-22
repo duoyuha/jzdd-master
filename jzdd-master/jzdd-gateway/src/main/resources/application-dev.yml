@@ -1,0 +1,61 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
+      #eureka client刷新本地缓存时间
+      registry-fetch-interval-seconds: 5
+  instance:
+    #租期到期时间（默认90秒）
+    lease-expiration-duration-in-seconds: 30
+    #租期更新时间间隔（默认30秒）
+    lease-renewal-interval-in-seconds: 10
+    # 使用ip地址注册
+    prefer-ip-address: true
+
+# tomcat配置
+server:
+  port: 9000
+spring:
+  application:
+    name: jzdd-gateway
+  redis:
+      host: 192.168.8.146
+      port: 6379
+      timeout: 100000
+      pool:
+            max-active: 300
+            max-wait: -1
+            min-idle: 0
+      #password: 123456
+  #http请求状态
+  http:
+    multipart:
+      maxFileSize: 100MB
+      maxRequestSize: 100MB
+
+# 熔断
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+zuul:
+  servlet-path: /
+  routes:
+    # 配置多服务
+    api-a:
+      path: /api/v1/**
+      serviceId: jzdd-backend
+      # 传递头部信息
+      custom-sensitive-headers: true
+
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+    max-total-connections: 200
+    max-per-route-connections: 20
+    time-unit: MILLISECONDS
+    time-to-live: 10000

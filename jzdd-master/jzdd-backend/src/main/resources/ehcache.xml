@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://www.ehcache.org/ehcache.xsd">
+
+    <diskStore path="user.dir/cache"/>
+    <transactionManagerLookup class="net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup"
+                              properties="jndiName=java:/TransactionManager" propertySeparator=";"/>
+
+    <!-- 配置监听器 -->
+    <cacheManagerEventListenerFactory class="cn.zdwl.common.cache.CustomerCacheManagerEventListenerFactory" properties=""/>
+
+    <defaultCache
+            maxEntriesLocalHeap="0"
+            timeToIdleSeconds="1200"
+            timeToLiveSeconds="1200">
+        <!--<terracotta/>-->
+    </defaultCache>
+
+    <cache name="org.hibernate.cache.internal.StandardQueryCache"
+           maxEntriesLocalHeap="5" timeToLiveSeconds="120">
+        <cacheEventListenerFactory class="cn.zdwl.common.cache.CustomerCacheEventListenerFactory" />
+        <persistence strategy="localTempSwap" />
+    </cache>
+
+
+    <cache name="org.hibernate.cache.spi.UpdateTimestampsCache"
+           maxEntriesLocalHeap="5000" eternal="true">
+        <cacheEventListenerFactory class="cn.zdwl.common.cache.CustomerCacheEventListenerFactory" />
+        <persistence strategy="localTempSwap" />
+    </cache>
+
+    <cache name="cn.backend.model.primary.user"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.corp"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.role"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.dept"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.vehicle"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.supplier"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.config"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.menu"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.pile"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.rolemenu"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.vin"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.supplierarea"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.area"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+<!--    <cache name="cn.backend.model.primary.contract"-->
+<!--           maxEntriesLocalHeap="0"-->
+<!--           maxEntriesLocalDisk="1000000"-->
+<!--           eternal="true"-->
+<!--           diskSpoolBufferSizeMB="20"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--        <persistence strategy="localTempSwap"/>-->
+<!--    </cache>-->
+
+<!--    <cache name="cn.backend.model.primary.contractdetail"-->
+<!--           maxEntriesLocalHeap="0"-->
+<!--           maxEntriesLocalDisk="1000000"-->
+<!--           eternal="true"-->
+<!--           diskSpoolBufferSizeMB="20"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--        <persistence strategy="localTempSwap"/>-->
+<!--    </cache>-->
+
+<!--    <cache name="cn.backend.model.primary.contractfee"-->
+<!--           maxEntriesLocalHeap="0"-->
+<!--           maxEntriesLocalDisk="1000000"-->
+<!--           eternal="true"-->
+<!--           diskSpoolBufferSizeMB="20"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--        <persistence strategy="localTempSwap"/>-->
+<!--    </cache>-->
+
+<!--    <cache name="cn.backend.model.primary.contractarea"-->
+<!--           maxEntriesLocalHeap="0"-->
+<!--           maxEntriesLocalDisk="1000000"-->
+<!--           eternal="true"-->
+<!--           diskSpoolBufferSizeMB="20"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--        <persistence strategy="localTempSwap"/>-->
+<!--    </cache>-->
+
+    <cache name="cn.backend.model.primary.workfollow"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+    <cache name="cn.backend.model.primary.workfollowdetail"
+           maxEntriesLocalHeap="0"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           diskSpoolBufferSizeMB="20"
+           memoryStoreEvictionPolicy="LFU">
+        <persistence strategy="localTempSwap"/>
+    </cache>
+
+
+</ehcache>

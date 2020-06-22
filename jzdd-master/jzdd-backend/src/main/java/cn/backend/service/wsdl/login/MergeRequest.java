@@ -1,0 +1,226 @@
+/**
+ * MergeRequest.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package cn.backend.service.wsdl.login;
+
+public class MergeRequest  implements java.io.Serializable {
+    private cn.backend.service.wsdl.login.AdditionalInformationMap[] additionalInformationMap;
+
+    private cn.backend.service.wsdl.login.SObject masterRecord;
+
+    private java.lang.String[] recordToMergeIds;
+
+    public MergeRequest() {
+    }
+
+    public MergeRequest(
+           cn.backend.service.wsdl.login.AdditionalInformationMap[] additionalInformationMap,
+           cn.backend.service.wsdl.login.SObject masterRecord,
+           java.lang.String[] recordToMergeIds) {
+           this.additionalInformationMap = additionalInformationMap;
+           this.masterRecord = masterRecord;
+           this.recordToMergeIds = recordToMergeIds;
+    }
+
+
+    /**
+     * Gets the additionalInformationMap value for this MergeRequest.
+     * 
+     * @return additionalInformationMap
+     */
+    public cn.backend.service.wsdl.login.AdditionalInformationMap[] getAdditionalInformationMap() {
+        return additionalInformationMap;
+    }
+
+
+    /**
+     * Sets the additionalInformationMap value for this MergeRequest.
+     * 
+     * @param additionalInformationMap
+     */
+    public void setAdditionalInformationMap(cn.backend.service.wsdl.login.AdditionalInformationMap[] additionalInformationMap) {
+        this.additionalInformationMap = additionalInformationMap;
+    }
+
+    public cn.backend.service.wsdl.login.AdditionalInformationMap getAdditionalInformationMap(int i) {
+        return this.additionalInformationMap[i];
+    }
+
+    public void setAdditionalInformationMap(int i, cn.backend.service.wsdl.login.AdditionalInformationMap _value) {
+        this.additionalInformationMap[i] = _value;
+    }
+
+
+    /**
+     * Gets the masterRecord value for this MergeRequest.
+     * 
+     * @return masterRecord
+     */
+    public cn.backend.service.wsdl.login.SObject getMasterRecord() {
+        return masterRecord;
+    }
+
+
+    /**
+     * Sets the masterRecord value for this MergeRequest.
+     * 
+     * @param masterRecord
+     */
+    public void setMasterRecord(cn.backend.service.wsdl.login.SObject masterRecord) {
+        this.masterRecord = masterRecord;
+    }
+
+
+    /**
+     * Gets the recordToMergeIds value for this MergeRequest.
+     * 
+     * @return recordToMergeIds
+     */
+    public java.lang.String[] getRecordToMergeIds() {
+        return recordToMergeIds;
+    }
+
+
+    /**
+     * Sets the recordToMergeIds value for this MergeRequest.
+     * 
+     * @param recordToMergeIds
+     */
+    public void setRecordToMergeIds(java.lang.String[] recordToMergeIds) {
+        this.recordToMergeIds = recordToMergeIds;
+    }
+
+    public java.lang.String getRecordToMergeIds(int i) {
+        return this.recordToMergeIds[i];
+    }
+
+    public void setRecordToMergeIds(int i, java.lang.String _value) {
+        this.recordToMergeIds[i] = _value;
+    }
+
+    private java.lang.Object __equalsCalc = null;
+    public synchronized boolean equals(java.lang.Object obj) {
+        if (!(obj instanceof MergeRequest)) return false;
+        MergeRequest other = (MergeRequest) obj;
+        if (obj == null) return false;
+        if (this == obj) return true;
+        if (__equalsCalc != null) {
+            return (__equalsCalc == obj);
+        }
+        __equalsCalc = obj;
+        boolean _equals;
+        _equals = true && 
+            ((this.additionalInformationMap==null && other.getAdditionalInformationMap()==null) || 
+             (this.additionalInformationMap!=null &&
+              java.util.Arrays.equals(this.additionalInformationMap, other.getAdditionalInformationMap()))) &&
+            ((this.masterRecord==null && other.getMasterRecord()==null) || 
+             (this.masterRecord!=null &&
+              this.masterRecord.equals(other.getMasterRecord()))) &&
+            ((this.recordToMergeIds==null && other.getRecordToMergeIds()==null) || 
+             (this.recordToMergeIds!=null &&
+              java.util.Arrays.equals(this.recordToMergeIds, other.getRecordToMergeIds())));
+        __equalsCalc = null;
+        return _equals;
+    }
+
+    private boolean __hashCodeCalc = false;
+    public synchronized int hashCode() {
+        if (__hashCodeCalc) {
+            return 0;
+        }
+        __hashCodeCalc = true;
+        int _hashCode = 1;
+        if (getAdditionalInformationMap() != null) {
+            for (int i=0;
+                 i<java.lang.reflect.Array.getLength(getAdditionalInformationMap());
+                 i++) {
+                java.lang.Object obj = java.lang.reflect.Array.get(getAdditionalInformationMap(), i);
+                if (obj != null &&
+                    !obj.getClass().isArray()) {
+                    _hashCode += obj.hashCode();
+                }
+            }
+        }
+        if (getMasterRecord() != null) {
+            _hashCode += getMasterRecord().hashCode();
+        }
+        if (getRecordToMergeIds() != null) {
+            for (int i=0;
+                 i<java.lang.reflect.Array.getLength(getRecordToMergeIds());
+                 i++) {
+                java.lang.Object obj = java.lang.reflect.Array.get(getRecordToMergeIds(), i);
+                if (obj != null &&
+                    !obj.getClass().isArray()) {
+                    _hashCode += obj.hashCode();
+                }
+            }
+        }
+        __hashCodeCalc = false;
+        return _hashCode;
+    }
+
+    // Type metadata
+    private static org.apache.axis.description.TypeDesc typeDesc =
+        new org.apache.axis.description.TypeDesc(MergeRequest.class, true);
+
+    static {
+        typeDesc.setXmlType(new javax.xml.namespace.QName("urn:partner.soap.sforce.com", "MergeRequest"));
+        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("additionalInformationMap");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:partner.soap.sforce.com", "additionalInformationMap"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:partner.soap.sforce.com", "AdditionalInformationMap"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        elemField.setMaxOccursUnbounded(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("masterRecord");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:partner.soap.sforce.com", "masterRecord"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.partner.soap.sforce.com", "sObject"));
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("recordToMergeIds");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:partner.soap.sforce.com", "recordToMergeIds"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:partner.soap.sforce.com", "ID"));
+        elemField.setNillable(false);
+        elemField.setMaxOccursUnbounded(true);
+        typeDesc.addFieldDesc(elemField);
+    }
+
+    /**
+     * Return type metadata object
+     */
+    public static org.apache.axis.description.TypeDesc getTypeDesc() {
+        return typeDesc;
+    }
+
+    /**
+     * Get Custom Serializer
+     */
+    public static org.apache.axis.encoding.Serializer getSerializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanSerializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+    /**
+     * Get Custom Deserializer
+     */
+    public static org.apache.axis.encoding.Deserializer getDeserializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanDeserializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+}

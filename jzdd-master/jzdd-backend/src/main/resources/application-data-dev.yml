@@ -1,0 +1,126 @@
+# 本地开发环境
+spring:
+  profiles:
+    active: data-dev
+  datasource:
+    useGlobalDataSourceStat: true
+    # 初始化大小，最小，最大
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    # 配置获取连接等待超时的时间(毫秒)
+    maxWait: 60000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 28800
+    # 配置有一个连接在连接池中的最小生存时间，单位是毫秒
+    # minEvictableIdleTimeMillis: 18800
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: false
+    testOnBorrow: false
+    testOnReturn: false
+    # 打开PSCache，指定每个连接上PSCache的大小
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    # 配置监控统计拦截的filters，去掉后监控界面sql将无法统计，'wall'用于防火墙
+    filters: stat, wall, log4j
+    logSlowSql: true
+    # 通过connectProperties属性来打开mergeSql功能，慢SQL记录
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:log4jdbc:mysql://114.116.21.190:3306/jzdd?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    driver-class-name: net.sf.log4jdbc.DriverSpy
+    username: root
+    password: 123456
+
+
+
+  # #mongodb数据源 配置
+#  data:
+#      mongodb:
+#        mongodb://192.168.8.138:27017/phdl
+
+
+# #redis设置
+  redis:
+    host: 114.116.21.190
+    port: 6379
+    timeout: 100000
+    pool:
+          max-active: 300
+          max-wait: -1
+          min-idle: 0
+
+# OTA服务地址,连接时间和超时时间
+#cn.phdl.otaserver.url: http://localhost:8091/api/bms
+
+# 文件保存路径
+file:
+  savepath: D:/cnsg/files/
+  viewpath: /files/
+
+#高德
+#AmapConfig:
+#  web_app_key: f26290519226f5a760cdf695a3be3fac
+#  geocode_url: https://restapi.amap.com/v3/geocode/geo?address={address}&key={key}
+
+# 友盟
+UMengConfig:
+  appkey_android: 5cd3d9833fc195630800066b
+  appkey_ios: 5cda222d570df39e0000086f
+  appMasterSecret_android: dcdoq02lu19u8mlukxcwnoprrodsbr1u
+  appMasterSecret_ios: llppjcy61n7g3rhssubrin63nc7gtjb8
+
+excel:
+  templatePath: /excel/template/
+#服务注册
+eureka:
+  client:
+    # register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
+  instance:
+    #租期更新时间间隔（默认30秒）
+    lease-renewal-interval-in-seconds: 10
+    #租期到期时间（默认90秒）
+    lease-expiration-duration-in-seconds: 30
+    #注册ip
+    prefer-ip-address: true
+flyway:
+  enabled: true
+  url: jdbc:mysql://114.116.21.190:3306/jzdd?useUnicode=true&characterEncoding=utf8&mysqlEncoding=utf8
+  user: root
+  password: 123456
+  check-location: true
+  locations: classpath:db/migration/
+  encoding: utf-8
+
+# feign 超时配置
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+WeixinConfig:
+  url:  https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code
+  appId: wx5903c97a30ace46b
+  appSecret: a753da4520641872d84586df1cf1e8ba
+
+# 订单获取信息
+OrderCar:
+  url: http://localhost:9001/api/v1/test
+
+# SCRM 接口
+scrm:
+  baseurl: http://trial-mcrm.wey.com:7072/chargingpile
+  caseresulturl: /caseresult
+  carinfourl: /carowner/getbyvin
+  checktokenurl: /token/check
+  submitpileorderurl: /chargingpileinfo/confirmchargingpile
+  key: GWM2019
+  scrmaccount: "integration.api@gwm.cn.full"
+  scrmpassword: "gwm@SCRM12"
+
+
+#spring.datasource.testOnBorrow: true
+#spring.datasource.validationQuery: SELECT 1 as connection_test from dual
+#spring.datasource.driver-class-name: com.mysql.jdbc.Driver

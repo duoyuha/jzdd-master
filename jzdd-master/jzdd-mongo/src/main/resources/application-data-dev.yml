@@ -1,0 +1,27 @@
+# tomcat配置
+server:
+  port: 9004
+spring:
+  application:
+    name: jzdd-mongo
+  #数据源 配置
+  data:
+      mongodb:
+        uri: mongodb://192.168.8.138:27017/jzdd
+
+
+#开发环境
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
+      #eureka client刷新本地缓存时间
+      registry-fetch-interval-seconds: 5
+  instance:
+    #租期到期时间（默认90秒）
+    lease-expiration-duration-in-seconds: 30
+    #租期更新时间间隔（默认30秒）
+    lease-renewal-interval-in-seconds: 10
+    # 使用ip地址注册
+    prefer-ip-address: true
+

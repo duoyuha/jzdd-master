@@ -1,0 +1,85 @@
+<!--
+ - Copyright 1999-2011 Alibaba Group.
+ -  
+ - Licensed under the Apache License, Version 2.0 (the "License");
+ - you may not use this file except in compliance with the License.
+ - You may obtain a copy of the License at
+ -  
+ -      http://www.apache.org/licenses/LICENSE-2.0
+ -  
+ - Unless required by applicable law or agreed to in writing, software
+ - distributed under the License is distributed on an "AS IS" BASIS,
+ - WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ - See the License for the specific language governing permissions and
+ - limitations under the License.
+-->
+<assembly>
+	<id>bin</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	
+	<!-- 是否将工程基础目录打包进去 -->
+	<includeBaseDirectory>false</includeBaseDirectory>
+		
+	<fileSets>
+
+		<!-- 打包jar -->
+		<fileSet>
+			<directory>${project.basedir}/src/main/bin</directory>
+			<outputDirectory>bin</outputDirectory>
+			<fileMode>0755</fileMode>
+		</fileSet>
+
+		<!-- 启动文件 -->
+		<fileSet>
+			<directory>${project.basedir}/src/main/resources/start</directory>
+			<includes>
+				<include>*.bat</include>
+				<include>*.sh</include>
+			</includes>
+			<outputDirectory>/</outputDirectory>
+			<fileMode>0755</fileMode>
+		</fileSet>
+
+		<!-- 配置文件 -->
+		<fileSet>
+			<directory>${project.basedir}/src/main/resources/</directory>
+			<includes>
+				<include>*.properties</include>
+				<include>*.yml</include>
+				<include>*.xml</include>
+			</includes>
+			<outputDirectory>conf</outputDirectory>
+			<fileMode>0644</fileMode>
+		</fileSet>
+
+		<!--<fileSet>-->
+			<!--<directory>${project.basedir}/src/main/resources/env/${env}</directory>-->
+			<!--<includes>-->
+				<!--<include>application.properties</include>-->
+			<!--</includes>-->
+			<!--<outputDirectory>conf</outputDirectory>-->
+			<!--<fileMode>0644</fileMode>-->
+		<!--</fileSet>-->
+
+		<!--&lt;!&ndash; 第三方jar包 &ndash;&gt;-->
+		<!--<fileSet>-->
+			<!--<directory>${project.basedir}/src/main/resources/lib/</directory>-->
+			<!--<includes>-->
+				<!--<include>**/*.jar</include>-->
+			<!--</includes>-->
+			<!--<outputDirectory>lib</outputDirectory>-->
+			<!--<fileMode>0755</fileMode>-->
+		<!--</fileSet>-->
+
+	</fileSets>
+	
+	<!-- 依赖包 ：此处将所有jar包打包到lib目录中-->
+	<dependencySets>
+		<dependencySet>
+			<outputDirectory>lib</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+	
+</assembly>

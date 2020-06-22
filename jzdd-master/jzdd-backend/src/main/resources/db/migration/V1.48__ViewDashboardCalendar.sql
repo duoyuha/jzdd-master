@@ -1,0 +1,58 @@
+CREATE
+	OR REPLACE VIEW v_dashboard_calendar AS SELECT
+	t1.ORDER_ID,
+	t1.ORDER_NO,
+	date_format( t1.APPOINTMENT_TIME, '%Y-%m-%d' ) AS APPOINTMENT_DATE,
+	t1.APPOINTMENT_TIME,
+	t2.STEP_NAME,
+	'01' AS FOLLOW_CODE,
+	t2.STEP_MATRIX,
+	t1.SUPPLIER_NO,
+	t2.POSITION_CODES,
+	t1.CORP_NO
+FROM
+	t_install_order t1,
+	t_order_step t2
+WHERE
+	t1.ORDER_NO = t2.ORDER_NO
+	AND t2.CURRENT_STEP_FLG = 'Y'
+	and  t1.IS_DEL='N'
+	AND t2.STEP_MATRIX IN ( '0,0,0,1,0,0,0,0,0' ) UNION ALL
+SELECT
+	t1.ORDER_ID,
+	t1.ORDER_NO,
+	date_format( t1.APPOINTMENT_INSTALL_TIME, '%Y-%m-%d' ),
+	t1.APPOINTMENT_INSTALL_TIME,
+	t2.STEP_NAME,
+	'02',
+	t2.STEP_MATRIX,
+	t1.SUPPLIER_NO,
+	t2.POSITION_CODES,
+	t1.CORP_NO
+FROM
+	t_install_order t1,
+	t_order_step t2
+WHERE
+	t1.ORDER_NO = t2.ORDER_NO
+	AND t2.CURRENT_STEP_FLG = 'Y'
+	and  t1.IS_DEL='N'
+	AND t2.STEP_MATRIX IN ( '0,0,0,0,0,1,0,0,0' ) UNION ALL
+SELECT
+	t1.ORDER_ID,
+	t1.ORDER_NO,
+	date_format( t1.APPOINTMENT_TIME, '%Y-%m-%d' ),
+	t1.APPOINTMENT_TIME,
+	t2.STEP_NAME,
+	'03',
+	t2.STEP_MATRIX,
+	t1.SUPPLIER_NO,
+	t2.POSITION_CODES,
+	t1.CORP_NO
+FROM
+	t_delivery_order t1,
+	t_order_step t2
+WHERE
+	t1.ORDER_NO = t2.ORDER_NO
+	AND t2.CURRENT_STEP_FLG = 'Y'
+	and  t1.IS_DEL='N'
+	AND t2.STEP_MATRIX IN ('0,0,1,0,0,0')

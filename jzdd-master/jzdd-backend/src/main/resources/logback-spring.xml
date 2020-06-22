@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <property name="ROOT_LEVEL" value="INFO" />
+    <property name="log_file_path" value="./logs/service" />
+    <timestamp key="byDate" datePattern="yyyy-MM-dd"/>
+    <property name="MESSAGE_FILE_PATTERN" value="%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level %marker %thread %logger %msg%n" />
+
+    <appender name="STDOUT1" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>${ROOT_LEVEL}</level>
+        </filter>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern><pattern>[%thread %d{yyyy-MM-dd HH:mm:ss}] %highlight(%-5level) %cyan(%logger{15}) - %highlight(%msg) %n</pattern></Pattern>
+        </layout>
+    </appender>
+
+    <appender name="INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${log_file_path}/api.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${log_file_path}/api-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${MESSAGE_FILE_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${log_file_path}/error.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${log_file_path}/error-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${MESSAGE_FILE_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="requestAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${log_file_path}/request.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${log_file_path}/request-log-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${MESSAGE_FILE_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <logger name="org.springframework" level="ERROR">
+    </logger>
+
+    <logger name="org.hibernate" level="ERROR">
+    </logger>
+
+    <logger name="net.sf.ehcache" level="ERROR">
+    </logger>
+
+    <logger name="springfox.documentation" level="ERROR">
+    </logger>
+
+    <logger name="jdbc.audit" level="ERROR">
+    </logger>
+
+    <logger name="jdbc.resultset" level="ERROR">
+    </logger>
+
+    <logger name="jdbc.sqlonly" level="ERROR">
+    </logger>
+
+    <logger name="jdbc" level="ERROR">
+    </logger>
+
+    <logger name="jdbc.sqltiming" level="INFO">
+        <appender-ref ref="INFO"/>
+    </logger>
+
+    <root level="${ROOT_LEVEL}">
+        <appender-ref ref="INFO"/>
+        <appender-ref ref="STDOUT1"/>
+        <appender-ref ref="ERROR"/>
+    </root>
+
+</configuration>

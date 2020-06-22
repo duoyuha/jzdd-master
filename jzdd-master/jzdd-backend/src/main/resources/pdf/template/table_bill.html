@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>bill</title>
+		<style type="text/css">
+		
+			@page {
+  				size: A4 landscape;
+			}
+			body {
+				font-family: SimSun;
+			}
+			.table {
+				border: 2px solid #000;
+			}
+			
+			.table th {
+				border: 1px solid #000;
+			}
+			
+			.table tr {
+				border: 1px solid #000;
+			}
+			
+			.table tr td {
+				border: 1px solid #000;
+				text-align: center;
+				/*font-weight: bold;*/
+			}
+			.table-p{
+				text-align: center;
+				font-size: 25px;
+				margin-top:50px;
+				vertical-align: middle;
+			}
+			.font4{
+				text-align: center;
+			}
+			p{
+				margin:10px 0;
+				font-weight: bold;
+			}
+			.p-img{
+				width: 64px;
+                height: 56px;
+				border:0px solid red;
+				vertical-align: middle;
+				margin-right: 10px;
+			}
+			.table-pp{
+			   margin-top: 50px;
+			}
+			.pageNext{
+				page-break-after: always;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<p class="table-p"><img class="p-img" src="icon.png" />江苏杉杉能源管理有限公司电费通知单</p>
+		<table class="table" border="0" cellpadding="0" cellspacing="0" width="981" style='border-collapse: collapse;table-layout:fixed;width:918px;margin:0 auto;'>
+			<tr height="21" style='height:15.75pt' id='r3'>
+				<td height="21" style='height:15.75pt;'>
+					<div class="font4">客户名称</div>
+				</td>
+				<td colspan="3" id='tc1' class="font4">${dto.custName!""}</td>
+				<td>
+					<div class="font4">打印日期</div>
+				</td>
+				<td colspan="3" id='tc2' class="font4">${dto.elecBillExportDto.printDate!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r4'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">客户地址</div>
+				</td>
+				<td colspan="3" id='tc3' class="font4">${dto.custEntity.custProvince!""}${dto.custEntity.custCity!""}${dto.custEntity.custCountry!""}${dto.custEntity.custAddr!""}</td>
+				<td class="x29">计费时段</td>
+				<td colspan="3" id='tc4' class="font4">${dto.statisticalDate!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r5'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">客户编号</div>
+				</td>
+				<td colspan="3" id='tc5' class="font4">${dto.custCode!""}</td>
+				<td class="x28">
+					<div class="font4">项目编号</div>
+				</td>
+				<td colspan="3" id='tc6' class="font4">${dto.projectCode!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r6'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">开户信息</div>
+				</td>
+				<td colspan="3" id='tc7' class="font4">${dto.corpEntity.corpBankInfo!""}</td>
+				<td class="x29">客户税号</td>
+				<td colspan="3" id='tc8' class="font4">${dto.custEntity.custTaxNo!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r7'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">示数类型</div>
+				</td>
+				<td class="x28">
+					<div class="font4">总电量(充)</div>
+				</td>
+				<td class="x28">
+					<div class="font4">总电量(放)</div>
+				</td>
+				<td class="x28">
+					<div class="font4">电费项目</div>
+				</td>
+				<td class="x28">
+					<div class="font4">单价(元)</div>
+				</td>
+				<td class="x28">
+					<div class="font4">电费(充)</div>
+				</td>
+				<td class="x28">
+					<div class="font4">电费(放)</div>
+				</td>
+				<td class="x30">
+					<div class="font4">总节能费用</div>
+				</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r8'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">有功(总)</div>
+				</td>
+				<td class="x28">${dto.elecBillTotalDto.activeChargeStr!""}</td>
+				<td class="x28">${dto.elecBillTotalDto.activeDischargeStr!""}</td>
+				<td class="x28">-</td>
+				<td class="x28">-</td>
+				<td class="x28">-</td>
+				<td class="x28">-</td>
+				<td class="x30">-</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r9'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">有功(尖峰)</div>
+				</td>
+				<td class="font4">${dto.elecBillTotalDto.activeTopPeakChargeStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeTopPeakDischargeStr!""}</td>
+				<td class="x28">
+					<div class="font4">尖峰电费</div>
+				</td>
+				<td class="font4">${dto.elecBillTotalDto.topPeakUnitPriceStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeTopPeakChargingElecFeeStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeTopPeakDischargingElecFeeStr!""}</td>
+				<td class="x30">-</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r10'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">有功(峰)</div>
+				</td>
+				<td class="font4">${dto.elecBillTotalDto.activePeakChargeStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activePeakDischargeStr!""}</td>
+				<td class="x28">
+					<div class="font4">峰段电费</div>
+				</td>
+				<td class="font4">${dto.elecBillTotalDto.peakUnitPriceStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activePeakChargingElecFeeStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activePeakDischargingElecFeeStr!""}</td>
+				<td class="x30">-</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r11'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">有功(平)</div>
+				</td>
+				<td class="font4">${dto.elecBillTotalDto.activeFlatChargeStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeFlatDischargeStr!""}</td>
+				<td class="x28">
+					<div class="font4">平段电费</div>
+				</td>
+				<td class="font4">${dto.elecBillTotalDto.flatUnitPriceStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeFlatChargingElecFeeStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeFlatDischargingElecFeeStr!""}</td>
+				<td class="x30">-</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r12'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">有功(谷)</div>
+				</td>
+				<td class="font4">${dto.elecBillTotalDto.activeValleyChargeStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeValleyDischargeStr!""}</td>
+				<td class="x28">
+					<div class="font4">谷段电费</div>
+				</td>
+				<td class="font4">${dto.elecBillTotalDto.valleyUnitPriceStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeValleyChargingElecFeeStr!""}</td>
+				<td class="font4">${dto.elecBillTotalDto.activeValleyDischargingElecFeeStr!""}</td>
+				<td class="x30">-</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r13'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">电费小计</div>
+				</td>
+				<td class="x28">-</td>
+				<td class="x28">-</td>
+				<td class="x28">-</td>
+				<td class="x28">-</td>
+				<td class="x31">${dto.elecBillTotalDto.totalChargingElecFeeStr!""}</td>
+				<td class="x31">${dto.elecBillTotalDto.totalDischargingElecFeeStr!""}</td>
+				<td class="x32">${dto.elecBillTotalDto.totalEnergySavingCostStr!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r14'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">缴费基数</div>
+				</td>
+				<td class="font4">${dto.elecBillExportDto.feeRate!""}</td>
+				<td class="x28">
+					<div class="font4">金额合计</div>
+				</td>
+				<td class="font4">${dto.elecBillExportDto.totalFeeStr!""}</td>
+				<td class="x28">
+					<div class="font4">金额(大写)</div>
+				</td>
+				<td colspan="3" id='tc9' class="font4">${dto.elecBillExportDto.capMoney!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r15'>
+				<td rowspan="3" height="63" class="x45" style='height:47.25pt;'>
+					<div class="font4">备注</div>
+				</td>
+				<td colspan="7" id='tc10' rowspan="3" height="63" class="x47" style='height:47.25pt;'>分并网点数据详见电费结算单</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r16'>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r17'>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r18'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">租赁单位</div>
+				</td>
+				<td colspan="3" id='tc11' class="font4">${dto.corpEntity.corpName!""}</td>
+				<td class="x28">
+					<div class="font4">咨询电话</div>
+				</td>
+				<td colspan="3" id='tc12' class="font4">${dto.corpEntity.corpTel!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r19'>
+				<td height="21" class="x27" style='height:15.75pt;'>
+					<div class="font4">开户银行</div>
+				</td>
+				<td colspan="3" id='tc13' class="font4">${dto.corpEntity.corpBankDeposit!""}</td>
+				<td class="x29">银行账号</td>
+				<td colspan="3" id='tc14' class="font4">${dto.corpEntity.corpAccount!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r20'>
+				<td height="21" class="x34" style='height:15.75pt;'>
+					<div class="font4">统计</div>
+				</td>
+				<td colspan="3" id='tc15' class="x43"></td>
+				<td class="x35">
+					<div class="font4">复核</div>
+				</td>
+				<td colspan="3" id='tc16' class="x44"></td>
+			</tr>
+		</table>
+		<% for(item in dto.elecSubBillEntityList){%>
+		<div class='pageNext'></div>
+        <p class="table-p table-pp"><img class="p-img" src="icon.png" />江苏杉杉能源管理有限公司电费结算单</p>
+		<table class="table table-two" border="0" cellpadding="0" cellspacing="0" width="981" style='border-collapse:collapse;table-layout:fixed;width:1000px;margin:10px auto;'>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r3'>
+				<td height="21" class="x23" style='height:15.75pt;'>
+					<div class="font2">客户名称</div>
+				</td>
+				<td colspan="4" id='tc1' class="font2">${dto.custName!""}</td>
+				<td class="x24">
+					<div class="font2">打印日期</div>
+				</td>
+				<td colspan="5" id='tc2' class="font2">${dto.elecBillExportDto.printDate!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r4'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">客户地址</div>
+				</td>
+				<td colspan="4" id='tc3' class="font2">${dto.custEntity.custProvince!""}${dto.custEntity.custCity!""}${dto.custEntity.custCountry!""}${dto.custEntity.custAddr!""}</td>
+				<td class="x27">计费时段</td>
+				<td colspan="5" id='tc4' class="font2">${dto.statisticalDate!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r5'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">客户编号</div>
+				</td>
+				<td colspan="4" id='tc5' class="font2">${dto.custCode!""}</td>
+				<td class="x26">
+					<div class="font2">储能编号</div>
+				</td>
+				<td colspan="5" id='tc6' class="font2">${item.elecSubBillDto.subSystemCode!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r6'>
+				<td height="21" class="x35" style='height:15.75pt;'>
+					<div class="font2">并网点</div>
+				</td>
+				<td colspan="4" id='tc7' class="font2">${item.elecSubBillDto.connectingPoint!""}</td>
+				<td class="x26">
+					<div class="font2">页数</div>
+				</td>
+				<td colspan="5" id='tc8' class="font2">${item.elecSubBillDto.pageNum!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r7'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">示数类型</div>
+				</td>
+				<td class="x26">
+					<div class="font2">上次示数(充)</div>
+				</td>
+				<td class="x26">
+					<div class="font2">上次示数(放)</div>
+				</td>
+				<td class="x26">
+					<div class="font2">本次示数(充)</div>
+				</td>
+				<td class="x26">
+				    <div class="font2">本次示数(放)</div>
+				</td>
+				<td class="x26">
+					<div class="font2">抄见电量(充)</div>
+				</td>
+				<td class="x26">
+					<div class="font2">抄见电量(放)</div>
+				</td>
+				<td class="x26">
+					<div class="font2">电费项目</div>
+				</td>
+				<td class="x26">
+					<div class="font2">单价(元)</div>
+				</td>
+				<td class="x26">
+					<div class="font2">电费(元)</div>
+				</td>
+				<td class="x28">
+					<div class="font2">电费(放)</div>
+				</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r8'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">有功(总)</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygTtlLastInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygTtlLastOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygTtlThisInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygTtlThisOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygTtlCjElecInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygTtlCjElecOutStr!""}</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<td class="x28">-</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r9'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+				    <div class="font2">有功(尖峰)</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygJfLastInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygJfLastOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygJfThisInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygJfThisOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygJfCjElecInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygJfCjElecOutStr!""}</td>
+				<td class="font2">
+					<div class="font2">尖峰电费</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygJfUnitAmtStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygJfFeeInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygJfFeeOutStr!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r10'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">有功(峰)</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygFengLastInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygFengLastOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygFengThisInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygFengThisOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygFengCjElecInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygFengCjElecOutStr!""}</td>
+				<td class="font2">
+					<div class="font2">峰段电费</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygFengUnitAmtStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygFengFeeInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygFengFeeOutStr!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r11'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">有功(平)</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygPingLastInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygPingLastOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygPingThisInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygPingThisOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygPingCjElecInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygPingCjElecOutStr!""}</td>
+				<td class="x26">
+					<div class="font2">平段电费</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygPingUnitAmtStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygPingFeeInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygPingFeeOutStr!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r12'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">有功(谷)</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygGuLastInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygGuLastOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygGuThisInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygGuThisOutStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygGuCjElecInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygGuCjElecOutStr!""}</td>
+				<td class="font2">
+					<div class="font2">谷段电费</div>
+				</td>
+				<td class="font2">${item.elecSubBillDto.ygGuUnitAmtStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygGuFeeInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygGuFeeOutStr!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r13'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">电费小计</div>
+				</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<td class="x26">-</td>
+				<!--<td class="font2">${item.ygJfFeeIn+item.ygFengFeeIn+item.ygPingFeeIn+item.ygGuFeeIn!""}</td>-->
+				<!--<td class="font2">${item.ygJfFeeOut+item.ygFengFeeOut+item.ygPingFeeOut+item.ygGuFeeOut!""}</td>-->
+				<td class="font2">${item.elecSubBillDto.ygTtlFeeInStr!""}</td>
+				<td class="font2">${item.elecSubBillDto.ygTtlFeeOutStr!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r14'>
+				<td height="21" class="x25" style='height:15.75pt;'>
+					<div class="font2">租赁单位</div>
+				</td>
+				<td colspan="4" id='tc9' class="font2">${dto.corpEntity.corpName!""}</td>
+				<td class="x26">
+					<div class="font2">咨询电话</div>
+				</td>
+				<td colspan="5" id='tc10' class="font2">${dto.corpEntity.corpTel!""}</td>
+			</tr>
+			<tr height="21" style='mso-height-source:userset;height:15.75pt' id='r15'>
+				<td height="21" class="x31" style='height:15.75pt;'>
+					<div class="font2">统计</div>
+				</td>
+				<td colspan="4" id='tc11' class="x42"></td>
+				<td class="x32">
+					<div class="font2">复核</div>
+				</td>
+				<td colspan="5" id='tc12' class="x43"></td>
+			</tr>
+		</table>
+		<%}%>
+	</body>
+
+</html>
